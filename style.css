@@ -1,0 +1,41 @@
+*{
+box-sizing: border-box;
+}
+
+.pics {
+  display:flex;
+}
+
+.stop_off{
+  background-image: url('stop-off.svg');
+  background-size: contain;
+  width: 400px;
+  height:400px;
+
+}
+
+.stop_on{
+  background-image: url('stop-on.svg');
+  background-size: contain;
+  width: 400px;
+  height:400px;
+}
+
+.walk_off{
+  background-image: url('walk-off.svg');
+  background-size: contain;
+  width: 400px;
+  height:400px;
+}
+
+.walk_on{
+  background-image: url('walk-on.svg');
+  background-size: contain;
+  width: 400px;
+  height:400px;
+}
+
+.timer1, 
+.timer2 {
+  color:black;
+}
